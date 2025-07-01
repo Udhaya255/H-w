@@ -34,7 +34,7 @@ while running:
     choice = input("Enter choice (1-4): ")
 
     if choice == '1':
-        # Loop to allow multiple item pushes
+        
         print("Enter items to push (type -99 to stop):")
         while True:
             item_to_push = input("Item to push: ")
@@ -44,7 +44,7 @@ while running:
     elif choice == '2':
         popped = pop(stack)
         if popped is not None:
-            print(f"'{popped}' popped.") # Add print for popped item feedback
+            print(f"'{popped}' popped.") 
     elif choice == '3':
         display(stack)
     elif choice == '4':
